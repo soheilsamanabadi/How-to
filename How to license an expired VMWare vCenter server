@@ -1,0 +1,10 @@
+When your VMWare VCSA 6.5 or later license has expierd and you do not have global permision in VCSA panel to change your license, you can follow these steps:
+go to vCenter login page on http://ipaddress/
+in the right menu click on "Browse objects managed by vSphere"
+in login box, login with your VCSA panel username and password
+now a new page can be seen in your browser whit url: http://ipaddress/mob
+click on "RetriveServiceContent
+find "LicenseManager" and click on it
+in opend window you can check your licenses and features.
+to add new license click on "AddLicence"
+to see your license assignment and info click on "QueryLicenseUsage" or click on "licenses" in value
